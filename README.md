@@ -8,9 +8,9 @@ Minimal code sample to work ASTRA in Java
 
 | Steps | Description and Links
 |---|---|
-| 0. Create your Astra instance | [Prerequisites](#1-create-your-astra-instance-reminders) |
-| 1. Download the secure bundle | [Download](#2-exercise--the-spacecraft-nodebook) |
-| 2. Run the demo | [Connectivity](#3-connectivity-to-cassandra) |
+| 0. Create your Astra instance | [Prerequisites](#1-create-your-astra-instance) |
+| 1. Download the secure bundle | [Download secure bundle](#2-download-the-secure-bundle) |
+| 2. Run the demo | [Connectivity](#3-run-the-application) |
 
 
 ## 1. Create your Astra instance
@@ -81,9 +81,9 @@ Save the file in a path you will remember, again we will need it for the next ex
 
 locate the file `application.conf` and edit #1, #2, #3 reflecting user,passwordmzip and keyspace.
 
-```json
+```yaml
 datastax-java-driver {
-  basic {
+	basic {
     request {
     	timeout     = 10 seconds
         consistency = LOCAL_QUORUM
@@ -120,7 +120,6 @@ You can now run with
 mvn exec:java
 ```
 
-If you are not using Maven all dependencies are in the folder libs at root of this repo
+If you are not using Maven all dependencies are in the folder `libs` at root of this repo
 
 
-THE END.
