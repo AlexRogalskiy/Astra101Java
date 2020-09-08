@@ -128,9 +128,11 @@ You should have the following output
 Initializing connection to ASTRA
 + Connection Successfully established.
 + Table 'messages' has been created.
-+ Messages '072a4170-f21b-11ea-b3b6-6ba79e21f4bd' has been created.
-+ Messages '07c744c0-f21b-11ea-b3b6-6ba79e21f4bd' has been created.
++ Messages '52e0d0a0-f21d-11ea-8327-93731335709d' has been created.
++ Messages '537e7030-f21d-11ea-8327-93731335709d' has been created.
 + Reading records from table:
+   Astra says 'Hello' to 'You'
+   Astra says ' World !' to 'You'
 [OK] - End of Demo
 ```
 

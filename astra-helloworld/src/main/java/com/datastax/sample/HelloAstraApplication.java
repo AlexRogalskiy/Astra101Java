@@ -67,9 +67,9 @@ public class HelloAstraApplication {
             ResultSet rs = cqlSession.execute(SimpleStatement.builder(
                     "SELECT * FROM messages "
                     + "WHERE user_from = ?")
-                    .addPositionalValue("   - Astra").build());
+                    .addPositionalValue("Astra").build());
             for(Row row:rs) {
-                System.out.println(row.getString("user_from") + " says '" + 
+                System.out.println("   " + row.getString("user_from") + " says '" + 
                         row.getString("message") + "' to '" + 
                         row.getString("user_to") + "'");
             }
