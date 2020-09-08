@@ -83,7 +83,7 @@ locate the file `application.conf` and edit #1, #2, #3 reflecting user,passwordm
 
 ```yaml
 datastax-java-driver {
-	basic {
+   basic {
     request {
     	timeout     = 10 seconds
         consistency = LOCAL_QUORUM
@@ -121,5 +121,17 @@ mvn exec:java
 ```
 
 If you are not using Maven all dependencies are in the folder `libs` at root of this repo
+
+You should have the following output
+
+```
+Initializing connection to ASTRA
++ Connection Successfully established.
++ Table 'messages' has been created.
++ Messages '072a4170-f21b-11ea-b3b6-6ba79e21f4bd' has been created.
++ Messages '07c744c0-f21b-11ea-b3b6-6ba79e21f4bd' has been created.
++ Reading records from table:
+[OK] - End of Demo
+```
 
 
