@@ -73,7 +73,7 @@ Let’s review the database you have configured. In the box on the left side of 
 
 Save the file in a path you will remember, again we will need it for the next exercises.
 
-[🏠Back to HOME workshop](https://github.com/DataStax-Academy/cassandra-workshop-series)
+[🏠Back to HOME workshop](#table-of-contents)
 
 ## 3. Run the application
 
