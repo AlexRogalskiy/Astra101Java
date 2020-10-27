@@ -19,7 +19,7 @@ Minimal code sample to work ASTRA in Java
 
 **✅ Step 1a. Register (if needed) and Sign In to Astra** : You can use your `Github`, `Google` accounts or register with an `email`
 
-- [Registration Page](https://astra.datastax.com/register)
+- [Registration Page](https://astra.datastax.com/register?utm_source=devplay&utm_medium=github&utm_campaign=Astra101Java)
 
 ![Registration Image](images/astra-create-register.png?raw=true)
 
