@@ -4,5 +4,7 @@
   "duration": "10 minutes",
   "skillLevel": "Beginner",
   "githubUrl": "https://github.com/DataStax-Examples/Astra101Java",
-  "tags": [{ "name": "labs", "color": "warning" }, { "name": "java" }]
+  "tags": [{ "name": "labs", "color": "warning" }, { "name": "java" }],
+  "category": "apps",
+  "priority": 2
 }
