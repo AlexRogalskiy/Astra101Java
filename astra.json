@@ -1,8 +1,8 @@
-  
 {
- "name": "Astra + Java 101",
- "description": "Minimal code sample to work ASTRA in Java.",
- "duration": "10 minutes",
- "skillLevel": "Beginner",
- "githubUrl": "https://github.com/DataStax-Examples/Astra101Java"
+  "name": "Astra + Java 101",
+  "description": "Minimal code sample to work ASTRA in Java.",
+  "duration": "10 minutes",
+  "skillLevel": "Beginner",
+  "githubUrl": "https://github.com/DataStax-Examples/Astra101Java",
+  "tags": [{ "name": "labs", "color": "warning" }, { "name": "java" }]
 }
